@@ -18,8 +18,6 @@
 
 
   <modules>
-    <module>common</module>
-    <module>backend</module>
-    <module>frontend</module>
+    <module>config-demo-server</module>
   </modules>
 </project>
