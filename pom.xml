@@ -31,7 +31,8 @@
 
 	<modules>
 		<module>config-demo-server</module>
-	</modules>
+    <module>config-demo-client</module>
+  </modules>
 
 	<dependencyManagement>
 		<dependencies>
