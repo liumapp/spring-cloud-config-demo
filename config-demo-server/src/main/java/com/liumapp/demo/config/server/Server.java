@@ -11,10 +11,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  */
 @SpringBootApplication(scanBasePackages = {"com.liumapp.demo.config.server"})
 @EnableConfigServer
-public class Main {
+public class Server {
 
     public static void main(String[] args) {
-        SpringApplication.run(Main.class , args);
+        SpringApplication.run(Server.class , args);
     }
 
 }
