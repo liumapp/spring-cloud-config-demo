@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: config-client
+    name: demo
   cloud:
     config:
       profile: dev
       label: master
-      uri: http://localhost:9494
+      uri: http://localhost:9494/
 

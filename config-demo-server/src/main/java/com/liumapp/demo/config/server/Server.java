@@ -9,7 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * E-mail:liumapp.com@gmail.com
  * home-page:http://www.liumapp.com
  */
-@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.config.server"})
+@SpringBootApplication
 @EnableConfigServer
 public class Server {
 
