@@ -28,3 +28,9 @@ hs_err_pid*
 target
 
 .DS_Store
+
+config-client-eureka
+
+config-server-eureka
+
+config-repo
