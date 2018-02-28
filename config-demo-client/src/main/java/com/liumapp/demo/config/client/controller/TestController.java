@@ -17,7 +17,7 @@ public class TestController {
     @Value("${from}")
     private String from;
 
-    @RequestMapping("/hello")
+    @RequestMapping("/from")
     public String from () {
         return this.from;
     }

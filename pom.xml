@@ -32,8 +32,6 @@
 	<modules>
 		<module>config-demo-server</module>
     	<module>config-demo-client</module>
-		<!--<module>config-client-eureka</module>-->
-		<!--<module>config-server-eureka</module>-->
   	</modules>
 
 	<dependencyManagement>
