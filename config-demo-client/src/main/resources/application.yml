@@ -8,5 +8,6 @@ spring:
     config:
       profile: dev
       label: master
-      uri: http://localhost:9494/
+      uri: http://localhost:9494
+      enabled: true
 

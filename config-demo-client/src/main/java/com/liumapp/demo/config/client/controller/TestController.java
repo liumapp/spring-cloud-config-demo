@@ -14,19 +14,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @Value("${from}")
+    @Value("${from:world}")
     private String from;
 
-    @RequestMapping("/from")
+    @RequestMapping("hello")
     public String from () {
         return this.from;
     }
 
-    public String getFrom() {
-        return from;
-    }
-
-    public void setFrom(String from) {
-        this.from = from;
-    }
+//    public String getFrom() {
+//        return from;
+//    }
+//
+//    public void setFrom(String from) {
+//        this.from = from;
+//    }
 }
