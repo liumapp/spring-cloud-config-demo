@@ -1,7 +1,7 @@
 package com.liumapp.demo.config.client;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 
 /**
  * Created by liumapp on 2/25/18 5:44 PM.
@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Client {
 
     public static void main(String[] args) {
-        SpringApplication.run(Client.class , args);
+        new SpringApplicationBuilder(Client.class).web(true).run(args);
     }
 
 }
