@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+
     @Value("${from}")
     private String from;
 
@@ -21,6 +22,7 @@ public class TestController {
     public String from () {
         return this.from;
     }
+
 
 //    public String getFrom() {
 //        return from;
